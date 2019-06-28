@@ -1,4 +1,10 @@
-# Showcase
+# Showcase Sentiment "Dashboard"
+
+This project was created to give a visual representation of sentiment analysis api that we're using for our chatbot. 
+
+This project was shown at the DSS Summer showcase 
+
+# cli
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
 

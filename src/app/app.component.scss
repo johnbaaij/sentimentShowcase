@@ -1,0 +1,55 @@
+.bar{
+  min-height: 80px;
+  background-color: #D31145;
+  width: 100vw;
+  background-image: url("../assets/img/A0_TEXT_M-01.svg");
+  background-size: cover;
+  background-position: top;
+
+}
+
+#title{}
+
+#topBar{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#bottomBar{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+
+.mainArea {
+  margin-top: -100px;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(2, 2.5fr);
+  justify-items: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.chatArea{
+  height: 100%;
+}
+
+.emotionArea{
+  display: inline-block;
+  height:600px;
+
+  img{
+    width: 500px;
+    height: auto;
+  }
+
+  h1{
+    text-align: center;
+  }
+}
+
+

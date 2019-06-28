@@ -1,0 +1,31 @@
+//Only add things that are specific for bubble right. Everything else should go into bubble.component.scss
+@import "~src/variables";
+
+
+.bubble{
+  max-width: 500px;
+  width: 500px;
+  padding: 0;
+  border-radius: 27.41px;
+  display: block;
+  @include box-shadow;
+  background-color: $secondaryColor;
+
+}
+
+.bubbleText{
+  max-width: 95%;
+  margin-left: 20px;
+  margin-right: 8px;
+  word-wrap: break-word;
+  display: inline-block;
+
+
+}
+
+.bubbleArrow{
+  padding: 0;
+  margin-top: -(28px + $margin);
+  float: right;
+  fill: $secondaryColor;
+}
